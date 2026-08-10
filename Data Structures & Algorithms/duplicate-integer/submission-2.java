@@ -1,4 +1,4 @@
-// Repetition 1
+// Repetition 2
 class Solution {
     public boolean hasDuplicate(int[] nums) {
         HashSet<Integer> set = new HashSet<>();
