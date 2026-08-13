@@ -7,11 +7,11 @@ first value: encoded = 0 & min = val
 
 Pop:
 encoded < 0: min = min - encoded
-encoded => 0: top = min 
+encoded >= 0: min stays the same
 
 Top:
 encoded > 0: top = min + encoded
-encoded <= : min = min
+encoded <= 0: top = min
 */
 
 class MinStack {
